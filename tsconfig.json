@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "allowSyntheticDefaultImports": true,
+      // "declaration": true,
+      // "declarationDir": "./dist",
+      "target": "es6",
+      "module": "ES2015",
+      "outDir": "./dist",
+      "inlineSourceMap": true,
+      // "sourceMap": true
+    },
+    "files": [
+      "./node_modules/@types/express/index.d.ts",
+      "./node_modules/@types/mocha/index.d.ts",
+      "./node_modules/@types/node/index.d.ts"
+    ],
+    "include": [
+      "src/**/*.ts"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
