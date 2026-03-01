@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint src --ext ts",
+    "lint": "eslint src",
     "test": "node scripts/run-rollup.mjs rollup.config.test.mjs && mocha tests/**/*.spec.js",
     "build": "node scripts/run-rollup.mjs rollup.config.mjs && node node_modules/copy-node-modules/bin/copy-node-modules.js . dist"
   },
